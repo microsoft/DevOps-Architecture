@@ -1,3 +1,5 @@
+# Vision
+The purpose of this book is to guide Visual Studio developers in falling into the "pit of success" when developing and shipping software on Azure. Going beyond the quickstarts, this book will show readers how to pull all the technologies together to create and maintain a truly professional DevOps environment in Azure. We assume that developers are experienced .NET developers with working knowledge of ASP.NET, SQL Server, and Windows Server. We don't assume that the reader already has deep Azure experience, but will expect the reader to implement new resources in their Azure subscription using Powershell and other automating methods. Readers will take away from this book a complete, professional-grade DevOps environment (from source control all the way through production diagnostics) that can be applied to any of their existing or future .Net software applications.
 
 # Contributing
 
