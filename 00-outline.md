@@ -14,8 +14,10 @@ The purpose of this book is to guide Visual Studio developers in falling into th
     * DevOps - High level overview
       * Industry state of the art: Phoenix project, DevOps Handbook, Accelerate, state of devops report
       * DevOps environment architecture overview (diagram) w/ quick overview of the process
-2. Zero to Azure in 60 Minutes (adapted existing content)
-    * content adapted from other docs
+2. Zero to Azure in 60 Minutes ([adapted existing content](https://aka.ms/aspnetdevops))
+    * Deploying to Azure App Service
+    * Continuous Integration and Deployment
+    * Monitoring and Debugging
 3. The Professional-Grade DevOps Environment
     * Context of quality and productivity problems common in the industry
     * Methodologies that have contributed to the current state of the art
