@@ -14,16 +14,21 @@ The purpose of this book is to guide Visual Studio developers in falling into th
     * DevOps - High level overview
       * Industry state of the art: Phoenix project, DevOps Handbook, Accelerate, state of devops report
       * DevOps environment architecture overview (diagram) w/ quick overview of the process
-2. Zero to Azure in 60 Minutes ([adapted existing content](https://aka.ms/aspnetdevops))
-    * Deploying to Azure App Service
-    * Continuous Integration and Deployment
-    * Monitoring and Debugging
+2. Zero to Azure in 60 Minutes (adapted existing content)
+    * content adapted from other docs
 3. The Professional-Grade DevOps Environment
-    * Context of quality and productivity problems common in the industry
     * Methodologies that have contributed to the current state of the art
+        * Agile 2001
+        * CI 2006 (Addision Wesley book)
+        * CD 2009 (Addision Wesley book)
+        * Working Effectively with Legacy Code (Michael Feathers)
+        * Phoenix Project, DevOps Handbook (Jez Humble, etc)
+        * DevOps (since 2010, but still misunderstood)
+            * The ways of devops.
     * Sample app intro (ASP.NET Core & SQL database)
       * Azure subscription
-      * Rules of thumb for how to set it up, level of isolation, etc. Security, network config
+          * Rules of thumb for how to set it up, level of isolation, etc. Security, network config
+    * Professional Tools
        * Visual Studio 2017
          * Options and why to choose Enterprise subscription
          * What types of add-ins to consider and encouraging to use the extension marketplace
@@ -37,15 +42,16 @@ The purpose of this book is to guide Visual Studio developers in falling into th
          * Creating your board and hiding things until you need them
          * Encouragement about the marketplace and some interesting extensions
     * Fundamental requirements of a modern development environment (overview)
-        - Tracking work
-        - Tracking code
-        - Building the code
-        - Validating the code
-        - Creating a release candidate
-        - Provisioning/configuring server environment
-        - Deploying the release
-        - Operating/supporting the software release
-     * Introduction to Azure DevOps Services & the different areas
+        * Principles: short lead time, short cycle time, defects prevented at every stage
+        * Tracking work
+        * Tracking code
+        * Building the code
+        * Validating the code
+        * Creating a release candidate
+        * Provisioning/configuring server environment
+        * Deploying the release
+        * Operating/supporting the software release
+    * Introduction to Azure DevOps Services & the different areas
 4. Tracking work
     * Principles
       * DevOps principles like Make Work Visible
@@ -177,7 +183,7 @@ The purpose of this book is to guide Visual Studio developers in falling into th
     * Principles (design options)
     * Azure service fabric
     * Scaled app service
-    * AKS
+    * AKS & Containers
     * SQL Managed instances for complex databases
 15. Conclusion
     * Review of architecture/build/testing loop
