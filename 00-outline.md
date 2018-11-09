@@ -27,7 +27,7 @@ The purpose of this book is to guide Visual Studio developers in falling into th
         * DevOps (since 2010, but still misunderstood)
             * The ways of devops.
     * Sample app intro (ASP.NET Core & SQL database)
-        * .Net Core 3.
+        * .Net Core 3. quick walkthrough of our application shell - setting ourselves up for the ability to write features.
         * Azure subscription - PaaS
           - rule of thumb is new Azure subscription for a new software system. May combine pre-production if multiple applications owned by same team. Could other mechanism work? Yes. Once you know why you are doing it.
     * Professional Tools
