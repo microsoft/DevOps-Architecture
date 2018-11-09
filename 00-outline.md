@@ -20,27 +20,31 @@ The purpose of this book is to guide Visual Studio developers in falling into th
     * Methodologies that have contributed to the current state of the art
         * Agile 2001
         * CI 2006 (Addision Wesley book)
+            * CruiseControl.net
         * CD 2009 (Addision Wesley book)
         * Working Effectively with Legacy Code (Michael Feathers)
         * Phoenix Project, DevOps Handbook (Jez Humble, etc)
         * DevOps (since 2010, but still misunderstood)
             * The ways of devops.
     * Sample app intro (ASP.NET Core & SQL database)
-      * Azure subscription
-          * Rules of thumb for how to set it up, level of isolation, etc. Security, network config
+        * .Net Core 3.
+        * Azure subscription - PaaS
+          - rule of thumb is new Azure subscription for a new software system. May combine pre-production if multiple applications owned by same team. Could other mechanism work? Yes. Once you know why you are doing it.
     * Professional Tools
-       * Visual Studio 2017
+       * Visual Studio 2017 Ent. subscription.
          * Options and why to choose Enterprise subscription
          * What types of add-ins to consider and encouraging to use the extension marketplace
-       * SQL Server Express 2017
+       * SQL Server Express 2017 min.  SQL Developer edition
          * What benefits come from SQL Developer edition vs. express
          * How to set up SQL Express for development including TCP/IP network enablement
-       * Azure DevOps Service organization
+       * Azure DevOps Service organization (Introduction to Azure DevOps Services & the different areas)
          * Setting up the organization and a project for working thro8ugh this book
-         * Navigating the process templates
-         * Naming projects, git repositories
-         * Creating your board and hiding things until you need them
+         * Navigating the process templates - overview of process templates - doesn't matter which one you choose because you will be redoing it anyway.
+         * Naming projects, git repositories - no spaces in the project name.
          * Encouragement about the marketplace and some interesting extensions
+            * Octopus Deploy
+            * Redgate (database)
+            * DevLab
     * Fundamental requirements of a modern development environment (overview)
         * Principles: short lead time, short cycle time, defects prevented at every stage
         * Tracking work
@@ -51,7 +55,7 @@ The purpose of this book is to guide Visual Studio developers in falling into th
         * Provisioning/configuring server environment
         * Deploying the release
         * Operating/supporting the software release
-    * Introduction to Azure DevOps Services & the different areas
+    
 4. Tracking work
     * Principles
       * DevOps principles like Make Work Visible
