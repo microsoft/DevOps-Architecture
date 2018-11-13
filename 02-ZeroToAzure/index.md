@@ -1,6 +1,6 @@
 # Zero to Azure in 60 minutes
 
-<!--Intro text here-->
+To give you a hint of the capabilities available to ASP.NET Core developers on Azure, let's take a quick tour through Azure App Service and Azure DevOps.
 
 ## Deploy an app to App Service
 
@@ -629,6 +629,8 @@ In this section, you completed the following tasks:
 * [Troubleshoot a web app in Azure App Service using Visual Studio](https://docs.microsoft.com/azure/app-service/web-sites-dotnet-troubleshoot-visual-studio)
 * [Create classic metric alerts in Azure Monitor for Azure services - Azure portal](https://docs.microsoft.com/azure/monitoring-and-diagnostics/insights-alerts-portal)
 
-## Section conclusion
+## Chapter conclusion
 
-<!-- Conclusion text -->
+With Azure App Service and Azure DevOps, ASP.NET Core developers have powerful, professional-grade tools to ...
+
+<!-- TODO, obviously -->
