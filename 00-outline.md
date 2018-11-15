@@ -2,7 +2,7 @@
 
 The purpose of this content is to guide Visual Studio developers in falling into the "pit of success" when developing and shipping software on Azure. Going beyond the quickstarts, this content will show developers how to pull all the technologies together to create and maintain a truly professional DevOps environment in Azure. We targeting an experienced .NET developer audience with working knowledge of ASP.NET, SQL Server, and Windows Server. We don't assume that the audience already has deep Azure experience, but will expect the audience to implement new resources in their Azure subscription using Powershell and other automating methods. The target audience will take away from this content a complete, professional-grade DevOps environment (from source control all the way through production diagnostics) that can be applied to any of their existing or future .NET software applications. 
 
-Target publishing format will be docs.microsoft.com, as an MS Learn path if possible.  Localized.  It is also intended to be available in printed form as a book.
+Target publishing format will be localized content on docs.microsoft.com, as an MS Learn path if possible.  It is also intended to be available in printed form as a book.
 
 1. Introduction/Overview
     * Purpose - small to mid-sized .NET teams
