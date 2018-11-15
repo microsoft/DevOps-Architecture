@@ -1,15 +1,15 @@
-# Professional DevOps on Azure for .Net
+# Professional DevOps on Azure for .NET
 
-The purpose of this content is to guide Visual Studio developers in falling into the "pit of success" when developing and shipping software on Azure. Going beyond the quickstarts, this content will show developers how to pull all the technologies together to create and maintain a truly professional DevOps environment in Azure. We targeting an experienced .NET developer audiance with working knowledge of ASP.NET, SQL Server, and Windows Server. We don't assume that the audiance already has deep Azure experience, but will expect the audiance to implement new resources in their Azure subscription using Powershell and other automating methods. The target audiance will take away from this content a complete, professional-grade DevOps environment (from source control all the way through production diagnostics) that can be applied to any of their existing or future .Net software applications. 
+The purpose of this content is to guide Visual Studio developers in falling into the "pit of success" when developing and shipping software on Azure. Going beyond the quickstarts, this content will show developers how to pull all the technologies together to create and maintain a truly professional DevOps environment in Azure. We targeting an experienced .NET developer audience with working knowledge of ASP.NET, SQL Server, and Windows Server. We don't assume that the audience already has deep Azure experience, but will expect the audience to implement new resources in their Azure subscription using Powershell and other automating methods. The target audience will take away from this content a complete, professional-grade DevOps environment (from source control all the way through production diagnostics) that can be applied to any of their existing or future .NET software applications. 
 
-Target publishing format will be docs.microsoft.com, as an MS Learn path if possible.  Localized.  It is also intended to be avaialble in printed form as a book.
+Target publishing format will be docs.microsoft.com, as an MS Learn path if possible.  Localized.  It is also intended to be available in printed form as a book.
 
 1. Introduction/Overview
-    * Purpose - small to mid-sized .Net teams
+    * Purpose - small to mid-sized .NET teams
       * problems encountered by these teams
       * Stats on average age/experience of programmers
       * Stats on industry average productivity and quality of programmers
-    * .Net and Azure - what parts are covered
+    * .NET and Azure - what parts are covered
       * List of application runtime types (web, job, database, mobile native, desktop, etc)
       * Arch. overview of example for the book
       * Walkthrough of deployment options for the application and some forces on why to choose what
@@ -24,14 +24,14 @@ Target publishing format will be docs.microsoft.com, as an MS Learn path if poss
     * Methodologies that have contributed to the current state of the art
         * Agile 2001
         * CI 2006 (Addision Wesley book)
-            * CruiseControl.net
+            * CruiseControl.NET
         * CD 2009 (Addision Wesley book)
         * Working Effectively with Legacy Code (Michael Feathers)
         * Phoenix Project, DevOps Handbook (Jez Humble, etc)
         * DevOps (since 2010, but still misunderstood)
-            * The ways of devops.
+            * The ways of DevOps.
     * Sample app intro (ASP.NET Core & SQL database)
-        * .Net Core 3. quick walkthrough of our application shell - setting ourselves up for the ability to write features.
+        * .NET Core 3. quick walkthrough of our application shell - setting ourselves up for the ability to write features.
         * Azure subscription - PaaS
           - rule of thumb is new Azure subscription for a new software system. May combine pre-production if multiple applications owned by same team. Could other mechanism work? Yes. Once you know why you are doing it.
     * Professional Tools
@@ -66,7 +66,7 @@ Target publishing format will be docs.microsoft.com, as an MS Learn path if poss
       * Create an assembly line of swim lanes where every column has an owner and a definition of done
       * Any column can be the source of a defect that is passed downstream, so each is a workcenter that needs to be managed
       * Each column needs to have explicit quality control steps to prevent defects from that workcenter to be passed down stream
-      * Scrum-inherited process template and hiding unecessary work items
+      * Scrum-inherited process template and hiding unnecessary work items
       * When to use PBI's, tasks, features, and epics
       * Metrics you should be getting from your project tracking
     * Tool setup (Azure Boards)
@@ -92,9 +92,9 @@ Target publishing format will be docs.microsoft.com, as an MS Learn path if poss
       * Choosing branching
     * Tool setup (Azure Repos)
       * Walkthrough of the setup for our sample application
-    * The .Net git repository structure
-      * .Net Core example repo structure we/ directories for what purposes
-      * .Net Framework example repo structure we/ directories for what purposes
+    * The .NET git repository structure
+      * .NET Core example repo structure we/ directories for what purposes
+      * .NET Framework example repo structure we/ directories for what purposes
     * How team members contribute code (branching/merging/pull request/review & work item tracability)
     * Automating release notes
 6. Building the code
@@ -115,14 +115,14 @@ Target publishing format will be docs.microsoft.com, as an MS Learn path if poss
       * Hosted build vs. your own build agent
       * Pushing more logic into the git repository
       * Choosing between YAML and designer builds
-    * Integrating database devops into CI
+    * Integrating database DevOps into CI
       * Planning ahead with the setup of your database
       * Marketplace options: Redgate ReadyRoll, AliaSQL, Roundhouse, etc.
 7. Validating the code
     * Principles
       * No defects - no managing them - you squash them - if you aren't going to fix it, then call it expected, known behavior and a system limitation: Don't way "our product does this. . . but we have a bug so it really doesn't.  
       * Move test design ahead of coding - make it part of definition of done
-      * Defect Removeal Efficiency as a measure of quality (Capers Jones research)
+      * Defect Removal Efficiency as a measure of quality (Capers Jones research)
       * 3 QC activities: testing, inspections, static code analysis
       * Every stage of work needs validation
       * Measuring defects before release and after
@@ -163,7 +163,7 @@ Target publishing format will be docs.microsoft.com, as an MS Learn path if poss
 10. Deploying the release
     * Principles
     * Tool setup (Azure Pipelines release hub)
-    * Confinguring our pipeline (3 environments deep)
+    * Configuring our pipeline (3 environments deep)
     * Deploying PaaS w/ config
     * Deploying IaaS w/ Azure VMs
     * Allowing stakeholders to approve production
@@ -177,7 +177,7 @@ Target publishing format will be docs.microsoft.com, as an MS Learn path if poss
     * Integrating an incident management workflow (Pick a partner, perhaps PagerDuty, who has VSTS integration.)
 12. Modernizing a full framework app to DevOps   
     * Principles
-    * Tool setup (.Net 4.6.2 (netstandard2))
+    * Tool setup (.NET 4.6.2 (netstandard2))
     * Walkthrough of full framework solution template enabled for DevOps
     * Caveats and holes for reader to fill in
 13. How to make an architectural change in a DevOps environment
