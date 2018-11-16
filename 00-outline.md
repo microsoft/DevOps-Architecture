@@ -1,8 +1,8 @@
 # Professional DevOps on Azure for .NET
 
-The purpose of this content is to guide Visual Studio developers in falling into the "pit of success" when developing and shipping software on Azure. Going beyond the quickstarts, this content will show developers how to pull all the technologies together to create and maintain a truly professional DevOps environment in Azure. We targeting an experienced .NET developer audience with working knowledge of ASP.NET, SQL Server, and Windows Server. We don't assume that the audience already has deep Azure experience, but will expect the audience to implement new resources in their Azure subscription using Powershell and other automating methods. The target audience will take away from this content a complete, professional-grade DevOps environment (from source control all the way through production diagnostics) that can be applied to any of their existing or future .NET software applications. 
+The purpose of this content is to guide Visual Studio developers in falling into the "pit of success" when developing and shipping software on Azure following the current state of Azure "truth." Going beyond the quickstarts, this content will show developers how to pull all the technologies together to create and maintain a truly professional DevOps environment in Azure. We targeting an experienced .NET developer audience with working knowledge of ASP.NET, SQL Server, and Windows Server. We don't assume that the audience already has deep Azure experience, but will expect the audience to implement new resources in their Azure subscription using Powershell and other automating methods. The target audience will take away from this content a complete, professional-grade DevOps environment (from source control all the way through production diagnostics) deploying to Azure App Service that can be applied to any of their existing or future .NET software applications. 
 
-Target publishing format will be localized content on docs.microsoft.com, as an MS Learn path if possible.  It is also intended to be available in printed form as a book.
+Target publishing format will be localized content on docs.microsoft.com as an MS Learn path with combined efforts from authors, CDAs, and evangelist teams.  It is also intended to be available in printed form as a book.
 
 1. Introduction/Overview
     * Purpose - small to mid-sized .NET teams
@@ -11,7 +11,7 @@ Target publishing format will be localized content on docs.microsoft.com, as an 
       * Stats on industry average productivity and quality of programmers
     * .NET and Azure - what parts are covered
       * List of application runtime types (web, job, database, mobile native, desktop, etc)
-      * Arch. overview of example for the book
+      * Arch. overview of example
       * Walkthrough of deployment options for the application and some forces on why to choose what
     * DevOps - High level overview
       * Industry state of the art: Phoenix project, DevOps Handbook, Accelerate, state of devops report
@@ -28,7 +28,7 @@ Target publishing format will be localized content on docs.microsoft.com, as an 
         * CD 2009 (Addision Wesley book)
         * Working Effectively with Legacy Code (Michael Feathers)
         * Phoenix Project, DevOps Handbook (Jez Humble, etc)
-        * DevOps (since 2010, but still misunderstood)
+        * DevOps Handbook (since 2010, but still misunderstood)
             * The ways of DevOps.
     * Sample app intro (ASP.NET Core & SQL database)
         * .NET Core 3. quick walkthrough of our application shell - setting ourselves up for the ability to write features.
@@ -42,7 +42,7 @@ Target publishing format will be localized content on docs.microsoft.com, as an 
          * What benefits come from SQL Developer edition vs. express
          * How to set up SQL Express for development including TCP/IP network enablement
        * Azure DevOps Service organization (Introduction to Azure DevOps Services & the different areas)
-         * Setting up the organization and a project for working thro8ugh this book
+         * Setting up the organization and a project for working through this content
          * Navigating the process templates - overview of process templates - doesn't matter which one you choose because you will be redoing it anyway.
          * Naming projects, git repositories - no spaces in the project name.
          * Encouragement about the marketplace and some interesting extensions
