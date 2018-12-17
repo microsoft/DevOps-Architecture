@@ -108,6 +108,7 @@ Target publishing format will be localized content on docs.microsoft.com as an M
     * Tool setup (Azure Pipelines & build script)
       * Powershell private build
       * CI Build configuration w/ variables (explanation of why to move away from the built-in step templates as fast as possible.
+      * Hosted build agent vs. private build agent) - including the future for container build agents
     * Using the private build
       * Steps required from the very first versions of the application
       * Creating database locally in the private build
@@ -148,6 +149,9 @@ Target publishing format will be localized content on docs.microsoft.com as an M
    * Packaging test suites that need to be run in deployed environments
 8. Creating a release candidate
     * Principles
+      * Artifact files option
+      * Nuget option (currently most widely support)
+      * Windows container option (the way of the future)
     * Tool setup (Azure Artifacts)
     * Versioning
     * Designing packaging for application deployment
@@ -155,7 +159,13 @@ Target publishing format will be localized content on docs.microsoft.com as an M
     * Packaging the database
 9. Provisioning/configuring server environment
     * Principles
-    * Tool setup (Azure subscription)
+      * Possible physical architectures for same application
+      * IIS on SQL Server on VMs - deployment groups
+      * Azure AppService w/ SQL Azure
+      * Container on AppService w/ SQL Azure
+      * Service Fabric w. SQL Azure
+      * AppService w/ CosmosDB
+    * Tool setup (Azure subscription) (Azure AppService w/ SQL Azure first)
     * Infrastructure as Code and immutable infrastructure 
     * Azure ARM
     * Azure CLI
@@ -183,15 +193,18 @@ Target publishing format will be localized content on docs.microsoft.com as an M
 13. How to make an architectural change in a DevOps environment
     * Principles (design considerations) (add off-line job to application)
     * Architectural options overview
-    * Scheduled job as webjob
-    * Queue-triggered as Azure function
-    * SQL-table polling as Windows service on VM
-    * Designing queue-triggered services for scale (2 of them)
+       * Addition of back-end job (Webjob)
+    * Infrastructure changes on branch
+    * On-line database changes
+    * Production roll-out
 14. Advanced deployment options
     * Principles (design options)
+      * Take same app and create pipeline targeting each of the following runtime topologies - this chapter may get too big and may have to be broken up into several.
     * Azure service fabric
     * Scaled app service
     * AKS & Containers
+    * On-premise or VM w/ deployment groups
+    * CosmosDB
     * SQL Managed instances for complex databases
 15. Conclusion
     * Review of architecture/build/testing loop
