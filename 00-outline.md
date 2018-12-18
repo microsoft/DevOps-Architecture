@@ -152,7 +152,7 @@ Target publishing format will be localized content on docs.microsoft.com as an M
       * Artifact files option
       * Nuget option (currently most widely support)
       * Containers - Linux for .Net Core (more mature than Windows containers)
-      * Windows container option (the way of the future)
+      * Windows container option (lift & shift)
     * Tool setup (Azure Artifacts)
     * Versioning
     * Designing packaging for application deployment
@@ -163,8 +163,7 @@ Target publishing format will be localized content on docs.microsoft.com as an M
       * Possible physical architectures for same application
       * IIS on SQL Server on VMs - deployment groups
       * Azure AppService w/ SQL Azure
-      * Container on AppService w/ SQL Azure
-      * Service Fabric w. SQL Azure
+      * Linux Container on AppService w/ SQL Azure (ability to change base image - special environmental dependencies)
       * AppService w/ CosmosDB
     * Tool setup (Azure subscription) (Azure AppService w/ SQL Azure first)
     * Infrastructure as Code and immutable infrastructure 
@@ -186,7 +185,9 @@ Target publishing format will be localized content on docs.microsoft.com as an M
     * Monitoring/alerts in the Azure portal
     * Logging and log centralization with OMS
     * Integrating an incident management workflow (Pick a partner, perhaps PagerDuty, who has VSTS integration.)
-12. Modernizing a full framework app to DevOps   
+      * Paul Yuck (talk to him). From Azure Monitoring, you can file a VSTS ticket from Azure portal.
+12. Modernizing a full framework app to DevOps (might be an existing ebook? Cesar?)
+https://dotnet.microsoft.com/download/thank-you/modernizing-existing-net-apps-ebook https://dotnet.microsoft.com/learn/dotnet/architecture-guides 
     * Principles
     * Tool setup (.NET 4.6.2 (netstandard2))
     * Walkthrough of full framework solution template enabled for DevOps
@@ -201,13 +202,13 @@ Target publishing format will be localized content on docs.microsoft.com as an M
 14. Advanced deployment options
     * Principles (design options)
       * Take same app and create pipeline targeting each of the following runtime topologies - this chapter may get too big and may have to be broken up into several.
-    * Azure service fabric
+    * Azure service fabric (Maybe)
     * Scaled app service
-    * AKS & Containers
     * On-premise or VM w/ deployment groups
     * CosmosDB
     * SQL Managed instances for complex databases
-15. Conclusion
+15. How to choose between competing options (Scott & Cesar)
+16. Conclusion
     * Review of architecture/build/testing loop
     * Review "rules of thumb" or 80/20 rule
     * Cover resources for further study
