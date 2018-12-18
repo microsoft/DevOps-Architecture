@@ -83,7 +83,7 @@ Target publishing format will be localized content on docs.microsoft.com as an M
     * 4+1 Architecture - how to identify and break down work
       * Iterative architecture
       * Process of creating and storing design artifacts in Azure Boards & Azure Repos
-5. Tracking code
+5. Tracking code (GitHub will have the most focus)
     * Principles
       * Everything is stored in source
       * One team per repository 
@@ -151,6 +151,7 @@ Target publishing format will be localized content on docs.microsoft.com as an M
     * Principles
       * Artifact files option
       * Nuget option (currently most widely support)
+      * Containers - Linux for .Net Core (more mature than Windows containers)
       * Windows container option (the way of the future)
     * Tool setup (Azure Artifacts)
     * Versioning
