@@ -47,8 +47,8 @@ industry in the last five years.
 
 ![](media/5f950231b4a1bb67bcb3f3e1ed686ca6.png)
 
-Over half of developers have five years of professional coding experience or
-less – Stack Overflow
+*Over half of developers have five years of professional coding experience or
+less – Stack Overflow*
 
 If you have surpassed 20 years of development experience, you qualify at the top
 5.2% of experience in the industry. We can see the inflection point between the
@@ -59,10 +59,10 @@ workforce.
 
 Consider this analogy. You are opening a new auto mechanic shop.
 
-![https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Chery_A1_-_service_shop_in_Ukraine_%287%29.jpg/1280px-Chery_A1_-_service_shop_in_Ukraine_%287%29.jpg](media/8efd48829145171fcc341d279f50ba73.jpg)
+![](media/8efd48829145171fcc341d279f50ba73.jpg)
 
-An auto mechanic shop must be set up in a way conducive to delivery quality and
-speed.
+*Figure :An auto mechanic shop must be set up in a way conducive to delivery
+quality and speed.*
 
 You purchase a fantastic location on a main road close to other centers of
 business. You spare no expense building the shop. You contact a local mechanic
@@ -96,7 +96,9 @@ such in 2010, DevOps has been commercialized and marketed. We will cover DevOps
 more in Chapter 3. For now, we’ll discuss the common glyphs and overviews.
 Wikipedia shows this process when you search for DevOps.
 
-![Illustration showing stages in a DevOps toolchain](media/02761bc972fd43d0884706cc52db6a63.png)
+![](media/02761bc972fd43d0884706cc52db6a63.png)
+
+*Figure : Illustration showing stages in a DevOps toolchain*
 
 Wikipedia relates that DevOps is a process with these stages, moving through Dev
 and Ops teams
@@ -110,9 +112,9 @@ bit.
 The DevOps methodology is based on the principles known as The Three Ways. The
 First Way is Systems Thinking.
 
-![The Three Ways \| The First Way](media/0fb72a0697c7ad5c7a190c2c7f52aa2a.png)
+![](media/0fb72a0697c7ad5c7a190c2c7f52aa2a.png)
 
-TODO: recreate graphic - The First Way is Systems Thinking
+*TODO: recreate graphic - The First Way is Systems Thinking*
 
 There is a lot of thought packed into this first principle of DevOps. It
 encompasses the ability to create a smooth, predictable flow of working software
@@ -129,10 +131,10 @@ In this principle, we create an environment where those using our software –
 those operating their business or departments with our software – provide
 continual feedback to those developing and changing the software.
 
-![https://www.pinkelephantasia.com/wp-content/uploads/2017/07/The-Three-Ways-The-Second-Way.png](media/534f4f9dc756ba0a035c42c147792f7c.png)
+![](media/534f4f9dc756ba0a035c42c147792f7c.png)
 
-Those operating their departments using our software provide continual feedback
-to those changing the software.
+*Those operating their departments using our software provide continual feedback
+to those changing the software.*
 
 We can put ourselves in the right DevOps mindset by translating the keywords as
 follows:
@@ -154,9 +156,9 @@ can operate the software in order to experience its value.
 If the first two Ways were about completing a software release cycle in a
 streamlined and effective way, The Third Way is about making that cycle faster.
 
-![The Third Way \| Continous Experimentation and Learning](media/0f75b5e16e089f7e2aa8714626f5a92c.png)
+![](media/0f75b5e16e089f7e2aa8714626f5a92c.png)
 
-The Third Way introduces smaller cycles within the cycle
+*The Third Way introduces smaller cycles within the cycle*
 
 Companies such as Netflix showed us that software can be released not only daily
 but many times per day with no downtime and no defects. The Third Way causes us
